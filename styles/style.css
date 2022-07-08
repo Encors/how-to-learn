@@ -4,7 +4,6 @@
   margin: 0 auto;
   /* выше для экранов больше 1600px отцентрировали весь контент */
   font-family: 'Helvetica Neue', Arial, sans-serif;
-
 }
 
 .logo {
@@ -35,7 +34,7 @@
 .header__title {
   width: 730px;
   height: 100%;
-  margin-left: 64px;
+  margin: 0 0 0 64px;
   z-index: 3;
   font-size: 102px;
   font-weight: 600;
@@ -284,4 +283,8 @@
   width: 16px;
   height: 16px;
   margin: 0 10px 0 0;
+}
+
+.footer__column-link:last-child {
+  margin-bottom: 16px;
 }
