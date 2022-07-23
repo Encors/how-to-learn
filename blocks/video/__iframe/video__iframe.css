@@ -5,3 +5,7 @@
 .video__iframe:last-child {
     margin-right: 0;
 }
+
+iframe {
+    border: 0px;
+}
